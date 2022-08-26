@@ -41,6 +41,7 @@ export default function AllFeatures() {
         .then((res)=>{
             console.log(res.data);
             setHouses(res.data);
+            setShow(false)
         }).catch((err)=>{
             console.log(err);
         })
@@ -189,7 +190,7 @@ export default function AllFeatures() {
                 <div key={j} className='col-12 col-sm-6 col-md-4 col-lg-3 mb-4'>
                     <div className='dashCard'>
                         
-                        <img loading="lazy" src={{url: i.property.primary_image_url}} className="pimg"  style={{position: 'relative', zIndex: 0}}/>
+                        <img loading="lazy" src={i.property.primary_image_url} className="pimg"  style={{position: 'relative', zIndex: 0}}/>
                         <div className='container mt-2'>
                             <h6>{i.property.address.state} - {i.property.address.city} - {i.property.address.address_line1} - {i.property.address.zip}</h6>
                             <div style={{  display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>

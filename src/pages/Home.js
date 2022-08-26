@@ -65,14 +65,14 @@ const getHouses = async()=>{
         <div className="introsec" style={{position: 'absolute', top: 0, zIndex:2}}>
             <div className="container">
                 <div className="sect">
-                    <h4 className="title">REAL ESTATES HOUSES</h4>
+                    <h4 className="title">Offer1 Estates Houses</h4>
                 </div>
             </div>
         </div>
     </div>
             
       
-    <Row style={{ margin: 0, marginTop: 75 }}>
+    <Row className="homess" style={{ margin: 0, marginTop: 75 }}>
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center',  marginBottom: 50 }}>
                 <h4 className="title" style={{ textAlign: 'center'}}>Latest Houses</h4>
                 <div style={{marginLeft: 20}}>
@@ -88,7 +88,7 @@ const getHouses = async()=>{
                 <div key={j} className='col-12 col-sm-6 col-md-4 col-lg-3 mb-4'>
                     <div className='dashCard'>
                         
-                        <img loading="lazy" src={{url: i.property.primary_image_url}} className="pimg"  style={{position: 'relative', zIndex: 0}}/>
+                        <img loading="lazy" src={i.property.primary_image_url} className="pimg"  style={{position: 'relative', zIndex: 0}}/>
                         <div className='container mt-2'>
                             <h6>{i.property.address.state} {i.property.address.city} {i.property.address.address_line1} {i.property.address.zip}</h6>
                             <div style={{  display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>

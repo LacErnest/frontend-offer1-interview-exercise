@@ -34,7 +34,7 @@ function ModalDetails({property}) {
         <Modal.Body>
         <Row>
         <Col xs={12} lg={6}>
-                    <img src={{url: property.property.primary_image_url}} width='100%'className='detail-image' />
+                    <img src={property.property.primary_image_url} width='100%'className='detail-image' />
                 </Col>
                 <Col xs={12} lg={6}>
                     <span style={{color: 'blue'}}>How much can you afford?</span>

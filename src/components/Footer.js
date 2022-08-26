@@ -11,7 +11,7 @@ export default function Footer(){
       <Container>
         <Row style={{ margin: 0, paddingTop: 70, marginBottom: 100 }}>
           <Col md="4">
-            <p>Get a house to rent easily,buy a house easily with Estate-Houses</p>
+            <p>Get a house to rent easily,buy a house easily with Offer1</p>
           </Col>
           <Col md="4">
             <Row>

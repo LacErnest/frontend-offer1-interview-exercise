@@ -177,10 +177,22 @@ h5{
   .detail-image{
     height: 300px
   }
+  .homess{
+    margin-top: 140px !important;
+ }
 }
   @media screen and (max-width: 770px){
     .sect{
       width: 90%;
     }
-   
+    .homess{
+      margin-top: 100px !important;
+   }
+  }
+
+  @media screen and (max-width: 500px){
+    
+    .homess{
+      margin-top: 70px !important;
+   }
   }
