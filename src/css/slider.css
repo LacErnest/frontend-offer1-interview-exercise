@@ -1,0 +1,46 @@
+
+.sliderHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    flex-direction: column;
+}
+
+.sliderHeader h2{
+    font-weight: 900;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.sliderHeader .formContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sliderHeader .formFilter{
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    /* margin-top: 20px; */
+    flex-direction: row;
+    align-items: center;
+}
+
+.searchContainer{
+    border: 1px solid gray;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin-bottom: 5px;
+}
+
+.searchContainer .search{
+    border: none;
+}

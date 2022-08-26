@@ -1,0 +1,33 @@
+h6{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+  }
+  .link{
+    color: #dbdbdb;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    font-family: Montserrat, sans-serif;
+  }
+  .inp{
+    width: 100%;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid #dbdbdb;
+    outline: none;
+    opacity: 0.7;
+    margin-bottom: 20px;
+  }
+  .sbtn{
+    font-size: 14px;
+    color: #ffffff;
+    background: #067aa9;
+    border: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    padding: 14px 30px;
+  }
